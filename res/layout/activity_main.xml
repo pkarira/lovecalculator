@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   
+    <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <TextView android:text="YOUR NAME" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+        
+    </TextView>
+     
+<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/a1">
+    
+</EditText>
+        
+</LinearLayout>
+ <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <TextView android:text="LOVER'S NAME" android:layout_width="wrap_content" android:layout_height="wrap_content" >
+        
+    </TextView>
+     <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"  android:id="@+id/a2">
+    
+</EditText>
+
+        
+</LinearLayout>
+ <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <TextView android:text="LOVE PERCENT" android:layout_width="wrap_content" android:layout_height="fill_parent" >
+        
+    </TextView>
+     
+<EditText android:layout_width="fill_parent" android:layout_height="wrap_content"  android:id="@+id/a3">
+    
+</EditText>
+        
+</LinearLayout>
+
+</LinearLayout>
